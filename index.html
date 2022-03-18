@@ -49,7 +49,6 @@
                 </p>
                 <p>
                     <strong>Last Name:</strong>
-                    <!-- This input field is bound to 'lastName' in the 'order' object -->
                     <input v-model.trim="order.lastName" />
                 </p>
                 <p>
@@ -67,10 +66,7 @@
                         <option v-for="(state, key) in states" v-bind:value="state">
                             {{key}}
                         </option>
-                        <!-- <option v-bind:value="states.AL">AL</option>
-                        <option v-bind:value="states.AR">AR</option>
-                        <option v-bind:value="states.CA">CA</option>
-                        <option v-bind:value="states.NV">NV</option> -->
+                        
                     </select>
                 </p>
                 <p>
@@ -78,16 +74,6 @@
                     <input v-model.number="order.zip" type="number" />
                 </p>
 
-                <p><input type="checkbox" id="gift" value="true" v-model="order.gift" v-bind:true-value="order.sendGift"
-                        v-bind:false-value="order.dontSendGift">
-                    <label for="gift">Ship As Gift?</label></p>
-
-                <p>
-                    <input type="radio" id="home" value="Home" v-model="order.method">
-                    <label for="home">Home</label>
-                    <input type="radio" id="business" value="Business" v-model="order.method">
-                    <label for="business">Business</label>
-                </p>
 
                 <h2>Order Information</h2>
                 <p>First Name: {{order.firstName}}</p>
@@ -117,7 +103,7 @@
         var webstore = new Vue({
             el: '#app',
             data: {
-                sitename: 'Lessons',
+                sitename: 'After School Club',
                 lessons: lessons,
                
                 cart: [],
