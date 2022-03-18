@@ -4,7 +4,7 @@ let lessons = [
         subject: "Math",
         location: "Dubai",
         price: 28.99,
-        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/images/math.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/math.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -13,7 +13,7 @@ let lessons = [
         subject: "History",
         location: "Rome",
         price: 44.90,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/dog sunscreen.jfif",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/history.png",
         availableInventory: 5,
         rating: 3
     },
@@ -22,7 +22,7 @@ let lessons = [
         subject: "Chemistry",
         location: "Moscow",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/chemistry.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -31,7 +31,7 @@ let lessons = [
         subject: "Physics",
         location: "Lagos",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/physics.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -40,7 +40,7 @@ let lessons = [
         subject: "French",
         location: "Paris",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/french.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -49,7 +49,7 @@ let lessons = [
         subject: "Spanish",
         location: "Madrid",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/spanish.png",
         availableInventory: 5,
         rating: 3
     },
@@ -58,7 +58,7 @@ let lessons = [
         subject: "Citizenship Education",
         location: "Washington",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/citizenship-education.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -67,7 +67,7 @@ let lessons = [
         subject: "Technical Drawing",
         location: "Texas",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/technical-drawing.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -76,7 +76,7 @@ let lessons = [
         subject: "Fine Arts",
         location: "Calgary",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/fine-art.jpg",
         availableInventory: 5,
         rating: 3
     },
@@ -85,7 +85,7 @@ let lessons = [
         subject: "Geography",
         location: "Berlin",
         price: 33.10,
-        image: "C:/Users/hp pavilion/Documents/vueJs classworkweek 7/images/red-dingo-dog-collar-red.jpg",
+        image: "C:/Users/hp pavilion/Documents/vueJs classwork/New folder/ima/geography.jpg",
         availableInventory: 5,
         rating: 3
     }

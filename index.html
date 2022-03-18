@@ -4,7 +4,7 @@
     <title>Lessons</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="lessons.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1e2c2238e4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,13 +19,13 @@
         <main>
             <div v-if='showLesson'>
                 <div v-for="lesson in sortedLessons">
-                    <h2 v-text="lesson.title"></h2>
+                    <h2 v-text="lesson.subject"></h2>
                     <figure>
                         <img v-bind:src="lesson.image">
                     </figure>
-                    <p v-html="lesson.description"></p>
+                    <p v-html="lesson.location"></p>
                     <p>Price: {{lesson.price}}</p>
-                    <p>Available stock: {{lesson.availableInventory -cartCount(lesson.id) }}</p>
+                    <p>Available stock: {{lesson.availableInventory -cartCount(lesson.id)}}</p>
 
                     
                     <button v-on:click='addToCart(lesson)' v-if='canAddToCart(lesson)'>Add to cart</button>
@@ -38,11 +38,7 @@
                     </span>
                     <span v-else>Buy now!</span>
 
-                    <div>
-                        <span v-for='n in lesson.rating'>★ </span>
-                        
-                        <span v-for='n in 5-lesson.rating'>☆</span>
-                    </div>
+                    
                 </div>
             </div>
             <div v-else>
@@ -103,11 +99,11 @@
                 <p>Gift? {{order.gift}}</p>
                 <p>Method: {{order.method}}</p><div v-if='showLesson'>
                     <div v-for="lesson in sortedLessons">
-                        <h2 v-text="lesson.title"></h2>
+                        <h2 v-text="lesson.subject"></h2>
                         <figure>
                             <img v-bind:src="lesson.image">
                         </figure>
-                        <p v-html="lesson.description"></p>
+                        <p v-html="lesson.location"></p>
                         <p>Price: {{lesson.price}}</p>
                     </div>
 
